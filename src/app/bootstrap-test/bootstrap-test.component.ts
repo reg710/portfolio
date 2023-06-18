@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-bootstrap-test',
@@ -8,13 +7,10 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 })
 export class BootstrapTestComponent implements OnInit {
 
-  constructor(private modalService: NgbModal) { }
+  constructor() { }
 
   ngOnInit(): void {
   }
 
-  public open(modal: any): void {
-    this.modalService.open(modal);
-  }
 
 }
