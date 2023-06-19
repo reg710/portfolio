@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { BootstrapTestComponent } from './bootstrap-test/bootstrap-test.component';
 
 const routes: Routes = [
-  {path: 'bootstrap', component: BootstrapTestComponent }
+  { path: 'bootstrap', component: BootstrapTestComponent }
 ];
 
 @NgModule({
