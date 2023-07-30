@@ -5,7 +5,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { BootstrapTestComponent } from './bootstrap-test/bootstrap-test.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ReadingComponent } from './reading/reading.component';
@@ -14,7 +13,6 @@ import { ReadingComponent } from './reading/reading.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    BootstrapTestComponent,
     AboutMeComponent,
     ResumeComponent,
     ReadingComponent
