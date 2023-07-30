@@ -6,12 +6,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { BootstrapTestComponent } from './bootstrap-test/bootstrap-test.component';
+import { AboutMeComponent } from './about-me/about-me.component';
+import { ResumeComponent } from './resume/resume.component';
+import { ReadingComponent } from './reading/reading.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    BootstrapTestComponent
+    BootstrapTestComponent,
+    AboutMeComponent,
+    ResumeComponent,
+    ReadingComponent
   ],
   imports: [
     BrowserModule,
