@@ -1,3 +1,23 @@
-<h1>{{title}}</h1>
+<nav class="navbar navbar-expand-sm bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" routerLink="/">Regina Connolly</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <!-- TODO remove bootstrap test later -->
+                <!-- TODO add routerlinks -->
+                <a class="nav-link" routerLink="/bootstrap">Bootstrap Test</a>
+                <a class="nav-link" routerLink="#">About Me</a>
+                <a class="nav-link" routerLink="#">Resume</a>
+                <a class="nav-link" routerLink="#">Reading</a>
+                <a class="nav-link" routerLink="#">Projects</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
 
 <router-outlet></router-outlet>
