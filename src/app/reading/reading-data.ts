@@ -30,7 +30,7 @@ export const READING_LIST: IReading[] = [
         when: new Date("2/1/23")
     },
     {
-        title: `HTTP Learn your browser's language`,
+        title: `HTTP - Learn Your Browser's Language`,
         author: 'Julia Evans',
         when: new Date("2/1/23")
     },
@@ -55,7 +55,7 @@ export const READING_LIST: IReading[] = [
     {
         title: 'Eloquent JavaScript - 3rd Edition',
         author: 'Marijn Haverbeke',
-        when: new Date("4/1/2023")
+        when: new Date("3/1/2023")
     },
     {
         title: 'The Ruby on Rails Tutorial - 7th Edition',

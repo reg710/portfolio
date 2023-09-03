@@ -15,7 +15,6 @@ export class ReadingComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    this.sortedBooks = this.books.sort((b1, b2) => (b1.when > b2.when) ? 1 : (b1.when < b2.when) ? -1 : 0);
-    console.log(this.sortedBooks);
+    this.sortedBooks = this.books.sort((b1, b2) => (b1.when < b2.when) ? 1 : (b1.when > b2.when) ? -1 : 0);
   }
 }
