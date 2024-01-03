@@ -14,15 +14,20 @@ export interface IReading {
 
 export const READING_LIST: IReading[] = [
     {
-        title: 'The Pragmatic Programmer - 20th Anniversary Edition',
-        author: 'Dave Thomas | Andy Hunt',
-        when: new Date("11/1/2021")
+        title: 'Practical Object-Oriented Design in Ruby',
+        author: 'Sandi Metz',
+        when: new Date("12/1/23")
     },
     {
-        title: 'The Pocket Guide to Debugging',
-        author: 'Julia Evans',
+        title: 'Engineering Management for the Rest of Us',
+        author: 'Sarah Drasner',
         readingGroup: 'WNB.rb Book Club',
-        when: new Date("1/1/23"),
+        when: new Date("5/1/2023")
+    },
+    {
+        title: 'Eloquent JavaScript - 3rd Edition',
+        author: 'Marijn Haverbeke',
+        when: new Date("3/1/2023")
     },
     {
         title: 'Becoming a Select Star',
@@ -35,10 +40,10 @@ export const READING_LIST: IReading[] = [
         when: new Date("2/1/23")
     },
     {
-        title: 'Engineering Management for the Rest of Us',
-        author: 'Sarah Drasner',
+        title: 'The Pocket Guide to Debugging',
+        author: 'Julia Evans',
         readingGroup: 'WNB.rb Book Club',
-        when: new Date("5/1/2023")
+        when: new Date("1/1/23"),
     },
     {
         title: 'An Elegant Puzzle - Systems of Engineering Management',
@@ -50,12 +55,7 @@ export const READING_LIST: IReading[] = [
         title: 'Working in Public',
         author: 'Nadia Eghbal',
         readingGroup: 'WNB.rb Book Club',
-        when: new Date("4/1/2022") 
-    },
-    {
-        title: 'Eloquent JavaScript - 3rd Edition',
-        author: 'Marijn Haverbeke',
-        when: new Date("3/1/2023")
+        when: new Date("4/1/2022")
     },
     {
         title: 'The Ruby on Rails Tutorial - 7th Edition',
@@ -68,4 +68,9 @@ export const READING_LIST: IReading[] = [
         author: 'Sandi Metz',
         when: new Date("1/1/2022")
     },
+    {
+        title: 'The Pragmatic Programmer - 20th Anniversary Edition',
+        author: 'Dave Thomas | Andy Hunt',
+        when: new Date("11/1/2021")
+    }
 ]
