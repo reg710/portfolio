@@ -1,0 +1,43 @@
+h1 {
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+}
+
+h2 {
+    color: #7e7e7e;
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.main-container {
+    // border: solid 3px black;
+    height: 70vh;
+    margin: 60px auto;
+    max-width: 70vw
+}
+
+.hero {
+    // border: solid 1px red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    // border: solid 1px green;
+    margin-right: 40px;
+}
+
+.hero-image {
+    border: solid 1px blue;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px
+}
+
+.bio {
+    // border: solid 1px orange;
+    margin: 60px auto;
+    max-width: 75%;
+}
