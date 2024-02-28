@@ -1,0 +1,53 @@
+.reading-container {
+    // border: solid 3px red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px auto;
+}
+
+h2 {
+    font-size: 2.25em;
+    letter-spacing: 0.1em;
+    // padding-bottom: 0.75em;
+}
+
+ul {
+    // border: solid 1px dodgerblue;
+    list-style-type: none;
+    padding: 0;
+}
+
+.book-card {
+    // border: solid 1px khaki;
+    border: 2px solid #222222;
+    border-radius: 8px;
+    padding: 1em;
+    margin: 2.5em 1.5em;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 10px 10px 2px 1px #e99a81;
+}
+
+.book-info {
+    // border: solid 1px khaki;
+    padding: 1em;
+}
+
+.timeline {
+    // border: solid 1px aliceblue;
+    padding: 1em;
+}
+
+.title {
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+.author {
+    font-size: 1.25em;
+}
+
+.when {
+    color: #7e7e7e;
+}

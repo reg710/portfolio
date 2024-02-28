@@ -1,4 +1,4 @@
-<div class="container d-flex flex-column justify-content-center">
+<!-- <div class="container d-flex flex-column justify-content-center">
     <div class="card">
         <h5 class="card-header">Coding Books I've Been Reading</h5>
         <div class="card-body">
@@ -12,5 +12,23 @@
                 </li>
             </ul>
         </div>
+    </div>
+</div> -->
+
+
+<div class="reading-container">
+    <h2>Coding Books I've Been Reading</h2>
+    <div>
+        <ul *ngIf="sortedBooks">
+            <li *ngFor="let book of sortedBooks" class="book-card">
+                <div class="book-info">
+                    <div class="title">{{book.title}}</div>
+                    <div class="author">{{book.author}}</div>
+                </div>
+                <div class="timeline">
+                    <div class="when">{{book.when | date: 'shortDate'}}</div>
+                </div>
+            </li>
+        </ul>
     </div>
 </div>
