@@ -26,7 +26,7 @@ ul {
     margin: 2.5em 1.5em;
     display: flex;
     justify-content: space-between;
-    box-shadow: 10px 10px 2px 1px #e99a81;
+    box-shadow: 10px 10px #e99a81;
 }
 
 .book-info {
@@ -50,4 +50,5 @@ ul {
 
 .when {
     color: #7e7e7e;
+    font-size: 0.75em;
 }
