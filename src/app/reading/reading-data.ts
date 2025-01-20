@@ -42,12 +42,6 @@ export const READING_LIST: IReading[] = [
         when: new Date("6/1/2024")
     },
     {
-        title: 'Coderspeak',
-        author: 'Guilherme Orlandini Heurich',
-        readingGroup: 'WNB.rb Book Club',
-        when: new Date("6/1/2024")
-    },
-    {
         title: 'Practical Object-Oriented Design in Ruby',
         author: 'Sandi Metz',
         readingGroup: 'WNB.rb Book Club',
