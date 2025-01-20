@@ -14,8 +14,43 @@ export interface IReading {
 
 export const READING_LIST: IReading[] = [
     {
+        title: 'Effective Testing with RSpec 3',
+        author: 'Myron Marston and Ian Dees',
+        readingGroup: 'WNB.rb Book Club',
+        when: new Date("1/15/2025")
+    },
+    {
+        title: 'The Ruby on Rails Tutorial - 7th Edition (x2 read)',
+        author: 'Michael Hartl',
+        when: new Date("1/1/2025")
+    },
+    {
+        title: 'Learning Git',
+        author: 'Anna Skoulikari',
+        when: new Date("1/15/2025")
+    },
+    {
+        title: 'Total Typescript Essentials',
+        author: 'Matt Pocock',
+        readingGroup: 'Company Book Club',
+        when: new Date("9/1/2024")
+    },
+    {
+        title: 'Coderspeak',
+        author: 'Guilherme Orlandini Heurich',
+        readingGroup: 'WNB.rb Book Club',
+        when: new Date("6/1/2024")
+    },
+    {
+        title: 'Coderspeak',
+        author: 'Guilherme Orlandini Heurich',
+        readingGroup: 'WNB.rb Book Club',
+        when: new Date("6/1/2024")
+    },
+    {
         title: 'Practical Object-Oriented Design in Ruby',
         author: 'Sandi Metz',
+        readingGroup: 'WNB.rb Book Club',
         when: new Date("12/1/23")
     },
     {
